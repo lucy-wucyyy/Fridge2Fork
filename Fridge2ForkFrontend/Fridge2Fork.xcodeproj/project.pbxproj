@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8427B14E2D95AF5C006299D9 /* CookingPreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427B14D2D95AF5C006299D9 /* CookingPreferencesView.swift */; };
+		8427B1502D95B0F5006299D9 /* PreferenceCheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427B14F2D95B0F5006299D9 /* PreferenceCheckboxView.swift */; };
+		8427B1522D98A4D2006299D9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8427B1512D98A4D2006299D9 /* .gitignore */; };
+		8427B1542D98A51E006299D9 /* SavedRecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427B1532D98A51E006299D9 /* SavedRecipesView.swift */; };
+		8427B1562D98A5B9006299D9 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8427B1552D98A5B9006299D9 /* CreateAccountView.swift */; };
+		845DB3052DA03803007D4BEC /* FridgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DB3042DA03803007D4BEC /* FridgeView.swift */; };
+		848A4EA02D77AC0400F01ACB /* Fridge2ForkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A4E9F2D77AC0400F01ACB /* Fridge2ForkApp.swift */; };
+		848A4EA42D77AC0600F01ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848A4EA32D77AC0600F01ACB /* Assets.xcassets */; };
+		848A4EA72D77AC0600F01ACB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848A4EA62D77AC0600F01ACB /* Preview Assets.xcassets */; };
+		848A4EB02D77B05F00F01ACB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A4EAF2D77B05F00F01ACB /* LoginView.swift */; };
+		848A4EB22D77B12D00F01ACB /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A4EB12D77B12D00F01ACB /* StartView.swift */; };
+		848A4EBA2D79248500F01ACB /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A4EB92D79248500F01ACB /* Color.swift */; };
+		848A4EBE2D7928E000F01ACB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A4EBD2D7928E000F01ACB /* ContentView.swift */; };
+		849BB4C42D7A1F6000161F77 /* Rasa-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 849BB4C22D7A1F6000161F77 /* Rasa-Italic-VariableFont_wght.ttf */; };
+		849BB4C52D7A1F6000161F77 /* Rasa-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 849BB4C32D7A1F6000161F77 /* Rasa-VariableFont_wght.ttf */; };
+		849BB4CD2D7A204D00161F77 /* Maitree-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 849BB4C72D7A204D00161F77 /* Maitree-Light.ttf */; };
+		849BB4CE2D7A204D00161F77 /* Maitree-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 849BB4C82D7A204D00161F77 /* Maitree-SemiBold.ttf */; };
+		849BB4CF2D7A204D00161F77 /* Maitree-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 849BB4C92D7A204D00161F77 /* Maitree-Regular.ttf */; };
+		849BB4D02D7A204D00161F77 /* Maitree-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 849BB4CA2D7A204D00161F77 /* Maitree-Medium.ttf */; };
+		849BB4D12D7A204D00161F77 /* Maitree-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 849BB4CB2D7A204D00161F77 /* Maitree-ExtraLight.ttf */; };
+		849BB4D22D7A204D00161F77 /* Maitree-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 849BB4CC2D7A204D00161F77 /* Maitree-Bold.ttf */; };
+		84BA42262DA0AB7000122359 /* FridgeModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA42252DA0AB7000122359 /* FridgeModuleView.swift */; };
+		84BA42292DA0AC9000122359 /* FridgeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA42282DA0AC9000122359 /* FridgeItem.swift */; };
+		84BA422B2DA0D15100122359 /* FridgeButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA422A2DA0D15100122359 /* FridgeButtonsView.swift */; };
+		84C3CE692D8CA6C80035CC41 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3CE682D8CA6C80035CC41 /* WelcomeView.swift */; };
+		84C3CE6B2D8CA6D40035CC41 /* GroceryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3CE6A2D8CA6D40035CC41 /* GroceryListView.swift */; };
+		84C3CE6D2D8CA7720035CC41 /* AppHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3CE6C2D8CA7720035CC41 /* AppHeaderView.swift */; };
+		84C3CE712D8CAB6F0035CC41 /* WelcomeViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3CE702D8CAB6F0035CC41 /* WelcomeViewButton.swift */; };
+		84C3CE732D91B60D0035CC41 /* GroceryCheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3CE722D91B60D0035CC41 /* GroceryCheckboxView.swift */; };
+		84C3CE7E2D92032C0035CC41 /* Rasa-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C3CE742D92032B0035CC41 /* Rasa-SemiBold.ttf */; };
+		84C3CE7F2D92032C0035CC41 /* Rasa-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C3CE752D92032B0035CC41 /* Rasa-BoldItalic.ttf */; };
+		84C3CE802D92032C0035CC41 /* Rasa-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C3CE762D92032B0035CC41 /* Rasa-Medium.ttf */; };
+		84C3CE812D92032C0035CC41 /* Rasa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C3CE772D92032C0035CC41 /* Rasa-Light.ttf */; };
+		84C3CE822D92032C0035CC41 /* Rasa-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C3CE782D92032C0035CC41 /* Rasa-SemiBoldItalic.ttf */; };
+		84C3CE832D92032C0035CC41 /* Rasa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C3CE792D92032C0035CC41 /* Rasa-Bold.ttf */; };
+		84C3CE842D92032C0035CC41 /* Rasa-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C3CE7A2D92032C0035CC41 /* Rasa-MediumItalic.ttf */; };
+		84C3CE852D92032C0035CC41 /* Rasa-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C3CE7B2D92032C0035CC41 /* Rasa-LightItalic.ttf */; };
+		84C3CE862D92032C0035CC41 /* Rasa-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C3CE7C2D92032C0035CC41 /* Rasa-Italic.ttf */; };
+		84C3CE872D92032C0035CC41 /* Rasa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84C3CE7D2D92032C0035CC41 /* Rasa-Regular.ttf */; };
+		C483142C2D9EF71800AB48E9 /* IngredientCheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C483142B2D9EF6F400AB48E9 /* IngredientCheckboxView.swift */; };
+		C4D067A72DC2F50800ED87FF /* SearchRecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D067A62DC2F4FF00ED87FF /* SearchRecipesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8427B14D2D95AF5C006299D9 /* CookingPreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingPreferencesView.swift; sourceTree = "<group>"; };
+		8427B14F2D95B0F5006299D9 /* PreferenceCheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceCheckboxView.swift; sourceTree = "<group>"; };
+		8427B1512D98A4D2006299D9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8427B1532D98A51E006299D9 /* SavedRecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedRecipesView.swift; sourceTree = "<group>"; };
+		8427B1552D98A5B9006299D9 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		845DB3042DA03803007D4BEC /* FridgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeView.swift; sourceTree = "<group>"; };
+		848A4E9C2D77AC0400F01ACB /* Fridge2Fork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fridge2Fork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848A4E9F2D77AC0400F01ACB /* Fridge2ForkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fridge2ForkApp.swift; sourceTree = "<group>"; };
+		848A4EA32D77AC0600F01ACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848A4EA62D77AC0600F01ACB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		848A4EAF2D77B05F00F01ACB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		848A4EB12D77B12D00F01ACB /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		848A4EB92D79248500F01ACB /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		848A4EBD2D7928E000F01ACB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		849BB4C22D7A1F6000161F77 /* Rasa-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rasa-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		849BB4C32D7A1F6000161F77 /* Rasa-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rasa-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		849BB4C62D7A1FB300161F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		849BB4C72D7A204D00161F77 /* Maitree-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Maitree-Light.ttf"; sourceTree = "<group>"; };
+		849BB4C82D7A204D00161F77 /* Maitree-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Maitree-SemiBold.ttf"; sourceTree = "<group>"; };
+		849BB4C92D7A204D00161F77 /* Maitree-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Maitree-Regular.ttf"; sourceTree = "<group>"; };
+		849BB4CA2D7A204D00161F77 /* Maitree-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Maitree-Medium.ttf"; sourceTree = "<group>"; };
+		849BB4CB2D7A204D00161F77 /* Maitree-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Maitree-ExtraLight.ttf"; sourceTree = "<group>"; };
+		849BB4CC2D7A204D00161F77 /* Maitree-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Maitree-Bold.ttf"; sourceTree = "<group>"; };
+		84BA42252DA0AB7000122359 /* FridgeModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeModuleView.swift; sourceTree = "<group>"; };
+		84BA42282DA0AC9000122359 /* FridgeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeItem.swift; sourceTree = "<group>"; };
+		84BA422A2DA0D15100122359 /* FridgeButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeButtonsView.swift; sourceTree = "<group>"; };
+		84C3CE682D8CA6C80035CC41 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		84C3CE6A2D8CA6D40035CC41 /* GroceryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListView.swift; sourceTree = "<group>"; };
+		84C3CE6C2D8CA7720035CC41 /* AppHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHeaderView.swift; sourceTree = "<group>"; };
+		84C3CE702D8CAB6F0035CC41 /* WelcomeViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewButton.swift; sourceTree = "<group>"; };
+		84C3CE722D91B60D0035CC41 /* GroceryCheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryCheckboxView.swift; sourceTree = "<group>"; };
+		84C3CE742D92032B0035CC41 /* Rasa-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rasa-SemiBold.ttf"; sourceTree = "<group>"; };
+		84C3CE752D92032B0035CC41 /* Rasa-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rasa-BoldItalic.ttf"; sourceTree = "<group>"; };
+		84C3CE762D92032B0035CC41 /* Rasa-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rasa-Medium.ttf"; sourceTree = "<group>"; };
+		84C3CE772D92032C0035CC41 /* Rasa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rasa-Light.ttf"; sourceTree = "<group>"; };
+		84C3CE782D92032C0035CC41 /* Rasa-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rasa-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		84C3CE792D92032C0035CC41 /* Rasa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rasa-Bold.ttf"; sourceTree = "<group>"; };
+		84C3CE7A2D92032C0035CC41 /* Rasa-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rasa-MediumItalic.ttf"; sourceTree = "<group>"; };
+		84C3CE7B2D92032C0035CC41 /* Rasa-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rasa-LightItalic.ttf"; sourceTree = "<group>"; };
+		84C3CE7C2D92032C0035CC41 /* Rasa-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rasa-Italic.ttf"; sourceTree = "<group>"; };
+		84C3CE7D2D92032C0035CC41 /* Rasa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rasa-Regular.ttf"; sourceTree = "<group>"; };
+		C483142B2D9EF6F400AB48E9 /* IngredientCheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCheckboxView.swift; sourceTree = "<group>"; };
+		C4D067A62DC2F4FF00ED87FF /* SearchRecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRecipesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848A4E992D77AC0400F01ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848A4E932D77AC0400F01ACB = {
+			isa = PBXGroup;
+			children = (
+				8427B1512D98A4D2006299D9 /* .gitignore */,
+				848A4E9E2D77AC0400F01ACB /* Fridge2Fork */,
+				848A4E9D2D77AC0400F01ACB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848A4E9D2D77AC0400F01ACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848A4E9C2D77AC0400F01ACB /* Fridge2Fork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848A4E9E2D77AC0400F01ACB /* Fridge2Fork */ = {
+			isa = PBXGroup;
+			children = (
+				84BA42272DA0AC8600122359 /* Models */,
+				849BB4CC2D7A204D00161F77 /* Maitree-Bold.ttf */,
+				849BB4CB2D7A204D00161F77 /* Maitree-ExtraLight.ttf */,
+				849BB4C72D7A204D00161F77 /* Maitree-Light.ttf */,
+				849BB4CA2D7A204D00161F77 /* Maitree-Medium.ttf */,
+				849BB4C92D7A204D00161F77 /* Maitree-Regular.ttf */,
+				849BB4C82D7A204D00161F77 /* Maitree-SemiBold.ttf */,
+				84C3CE792D92032C0035CC41 /* Rasa-Bold.ttf */,
+				84C3CE752D92032B0035CC41 /* Rasa-BoldItalic.ttf */,
+				84C3CE7C2D92032C0035CC41 /* Rasa-Italic.ttf */,
+				84C3CE772D92032C0035CC41 /* Rasa-Light.ttf */,
+				84C3CE7B2D92032C0035CC41 /* Rasa-LightItalic.ttf */,
+				84C3CE762D92032B0035CC41 /* Rasa-Medium.ttf */,
+				84C3CE7A2D92032C0035CC41 /* Rasa-MediumItalic.ttf */,
+				84C3CE7D2D92032C0035CC41 /* Rasa-Regular.ttf */,
+				84C3CE742D92032B0035CC41 /* Rasa-SemiBold.ttf */,
+				84C3CE782D92032C0035CC41 /* Rasa-SemiBoldItalic.ttf */,
+				849BB4C62D7A1FB300161F77 /* Info.plist */,
+				849BB4C22D7A1F6000161F77 /* Rasa-Italic-VariableFont_wght.ttf */,
+				849BB4C32D7A1F6000161F77 /* Rasa-VariableFont_wght.ttf */,
+				848A4EB82D79247800F01ACB /* Extensions */,
+				848A4EB52D790E3B00F01ACB /* Resources */,
+				848A4EAE2D77B01D00F01ACB /* Views */,
+				848A4E9F2D77AC0400F01ACB /* Fridge2ForkApp.swift */,
+				848A4EA52D77AC0600F01ACB /* Preview Content */,
+				848A4EBD2D7928E000F01ACB /* ContentView.swift */,
+			);
+			path = Fridge2Fork;
+			sourceTree = "<group>";
+		};
+		848A4EA52D77AC0600F01ACB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				848A4EA62D77AC0600F01ACB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		848A4EAE2D77B01D00F01ACB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84C3CE6F2D8CAB3C0035CC41 /* Components */,
+				84C3CE6E2D8CAB310035CC41 /* Pages */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		848A4EB52D790E3B00F01ACB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				848A4EA32D77AC0600F01ACB /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		848A4EB82D79247800F01ACB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				848A4EB92D79248500F01ACB /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84BA42272DA0AC8600122359 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84BA42282DA0AC9000122359 /* FridgeItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84C3CE6E2D8CAB310035CC41 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				848A4EAF2D77B05F00F01ACB /* LoginView.swift */,
+				848A4EB12D77B12D00F01ACB /* StartView.swift */,
+				84C3CE682D8CA6C80035CC41 /* WelcomeView.swift */,
+				84C3CE6A2D8CA6D40035CC41 /* GroceryListView.swift */,
+				8427B14D2D95AF5C006299D9 /* CookingPreferencesView.swift */,
+				8427B1532D98A51E006299D9 /* SavedRecipesView.swift */,
+				C4D067A62DC2F4FF00ED87FF /* SearchRecipesView.swift */,
+				8427B1552D98A5B9006299D9 /* CreateAccountView.swift */,
+				845DB3042DA03803007D4BEC /* FridgeView.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		84C3CE6F2D8CAB3C0035CC41 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C483142B2D9EF6F400AB48E9 /* IngredientCheckboxView.swift */,
+				84C3CE6C2D8CA7720035CC41 /* AppHeaderView.swift */,
+				84C3CE702D8CAB6F0035CC41 /* WelcomeViewButton.swift */,
+				84C3CE722D91B60D0035CC41 /* GroceryCheckboxView.swift */,
+				8427B14F2D95B0F5006299D9 /* PreferenceCheckboxView.swift */,
+				84BA42252DA0AB7000122359 /* FridgeModuleView.swift */,
+				84BA422A2DA0D15100122359 /* FridgeButtonsView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848A4E9B2D77AC0400F01ACB /* Fridge2Fork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848A4EAA2D77AC0600F01ACB /* Build configuration list for PBXNativeTarget "Fridge2Fork" */;
+			buildPhases = (
+				848A4E982D77AC0400F01ACB /* Sources */,
+				848A4E992D77AC0400F01ACB /* Frameworks */,
+				848A4E9A2D77AC0400F01ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fridge2Fork;
+			productName = Fridge2Fork;
+			productReference = 848A4E9C2D77AC0400F01ACB /* Fridge2Fork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848A4E942D77AC0400F01ACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					848A4E9B2D77AC0400F01ACB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 848A4E972D77AC0400F01ACB /* Build configuration list for PBXProject "Fridge2Fork" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 848A4E932D77AC0400F01ACB;
+			productRefGroup = 848A4E9D2D77AC0400F01ACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848A4E9B2D77AC0400F01ACB /* Fridge2Fork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848A4E9A2D77AC0400F01ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849BB4CF2D7A204D00161F77 /* Maitree-Regular.ttf in Resources */,
+				8427B1522D98A4D2006299D9 /* .gitignore in Resources */,
+				849BB4CD2D7A204D00161F77 /* Maitree-Light.ttf in Resources */,
+				84C3CE852D92032C0035CC41 /* Rasa-LightItalic.ttf in Resources */,
+				849BB4C52D7A1F6000161F77 /* Rasa-VariableFont_wght.ttf in Resources */,
+				849BB4D22D7A204D00161F77 /* Maitree-Bold.ttf in Resources */,
+				84C3CE842D92032C0035CC41 /* Rasa-MediumItalic.ttf in Resources */,
+				84C3CE872D92032C0035CC41 /* Rasa-Regular.ttf in Resources */,
+				84C3CE812D92032C0035CC41 /* Rasa-Light.ttf in Resources */,
+				849BB4D12D7A204D00161F77 /* Maitree-ExtraLight.ttf in Resources */,
+				849BB4D02D7A204D00161F77 /* Maitree-Medium.ttf in Resources */,
+				848A4EA72D77AC0600F01ACB /* Preview Assets.xcassets in Resources */,
+				848A4EA42D77AC0600F01ACB /* Assets.xcassets in Resources */,
+				84C3CE822D92032C0035CC41 /* Rasa-SemiBoldItalic.ttf in Resources */,
+				84C3CE862D92032C0035CC41 /* Rasa-Italic.ttf in Resources */,
+				84C3CE7E2D92032C0035CC41 /* Rasa-SemiBold.ttf in Resources */,
+				84C3CE802D92032C0035CC41 /* Rasa-Medium.ttf in Resources */,
+				849BB4C42D7A1F6000161F77 /* Rasa-Italic-VariableFont_wght.ttf in Resources */,
+				84C3CE7F2D92032C0035CC41 /* Rasa-BoldItalic.ttf in Resources */,
+				84C3CE832D92032C0035CC41 /* Rasa-Bold.ttf in Resources */,
+				849BB4CE2D7A204D00161F77 /* Maitree-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848A4E982D77AC0400F01ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848A4EB02D77B05F00F01ACB /* LoginView.swift in Sources */,
+				8427B1502D95B0F5006299D9 /* PreferenceCheckboxView.swift in Sources */,
+				C483142C2D9EF71800AB48E9 /* IngredientCheckboxView.swift in Sources */,
+				84C3CE6D2D8CA7720035CC41 /* AppHeaderView.swift in Sources */,
+				84BA42262DA0AB7000122359 /* FridgeModuleView.swift in Sources */,
+				848A4EA02D77AC0400F01ACB /* Fridge2ForkApp.swift in Sources */,
+				84BA42292DA0AC9000122359 /* FridgeItem.swift in Sources */,
+				84C3CE732D91B60D0035CC41 /* GroceryCheckboxView.swift in Sources */,
+				845DB3052DA03803007D4BEC /* FridgeView.swift in Sources */,
+				84C3CE6B2D8CA6D40035CC41 /* GroceryListView.swift in Sources */,
+				848A4EBE2D7928E000F01ACB /* ContentView.swift in Sources */,
+				848A4EB22D77B12D00F01ACB /* StartView.swift in Sources */,
+				84BA422B2DA0D15100122359 /* FridgeButtonsView.swift in Sources */,
+				848A4EBA2D79248500F01ACB /* Color.swift in Sources */,
+				84C3CE692D8CA6C80035CC41 /* WelcomeView.swift in Sources */,
+				8427B1562D98A5B9006299D9 /* CreateAccountView.swift in Sources */,
+				8427B14E2D95AF5C006299D9 /* CookingPreferencesView.swift in Sources */,
+				84C3CE712D8CAB6F0035CC41 /* WelcomeViewButton.swift in Sources */,
+				C4D067A72DC2F50800ED87FF /* SearchRecipesView.swift in Sources */,
+				8427B1542D98A51E006299D9 /* SavedRecipesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		848A4EA82D77AC0600F01ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		848A4EA92D77AC0600F01ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848A4EAB2D77AC0600F01ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fridge2Fork/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fridge2Fork/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirley.Fridge2Fork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		848A4EAC2D77AC0600F01ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fridge2Fork/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fridge2Fork/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shirley.Fridge2Fork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848A4E972D77AC0400F01ACB /* Build configuration list for PBXProject "Fridge2Fork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848A4EA82D77AC0600F01ACB /* Debug */,
+				848A4EA92D77AC0600F01ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848A4EAA2D77AC0600F01ACB /* Build configuration list for PBXNativeTarget "Fridge2Fork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848A4EAB2D77AC0600F01ACB /* Debug */,
+				848A4EAC2D77AC0600F01ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848A4E942D77AC0400F01ACB /* Project object */;
+}

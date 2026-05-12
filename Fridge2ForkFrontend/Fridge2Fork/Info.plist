@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Rasa-Bold.ttf</string>
+		<string>Rasa-BoldItalic.ttf</string>
+		<string>Rasa-LightItalic.ttf</string>
+		<string>Rasa-Medium.ttf</string>
+		<string>Rasa-MediumItalic.ttf</string>
+		<string>Rasa-Regular.ttf</string>
+		<string>Rasa-SemiBold.ttf</string>
+		<string>Rasa-SemiBoldItalic.ttf</string>
+		<string>Rasa-Italic-VariableFont_wght.ttf</string>
+		<string>Rasa-VariableFont_wght.ttf</string>
+		<string>Maitree-Bold.ttf</string>
+		<string>Maitree-ExtraLight.ttf</string>
+		<string>Maitree-Light.ttf</string>
+		<string>Maitree-Medium.ttf</string>
+		<string>Maitree-Regular.ttf</string>
+		<string>Maitree-SemiBold.ttf</string>
+	</array>
+</dict>
+</plist>
